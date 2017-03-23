@@ -1,0 +1,376 @@
+@font-face {
+    font-family: worksans;
+    src: url(../font/WorkSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: worksans;
+    src: url(../font/WorkSans-Bold.ttf);
+    font-weight: bold;
+}
+
+.quantityOption {
+    width: 25px;
+    height: 15px;
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#mainPage {
+    padding-left: 5%;
+}
+
+body {
+    font-family: worksans;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+#navigation {
+    height: 80px;
+    background-color: #401F29;
+}
+
+#searchForm {
+    position: relative;
+    left: 20%;
+    top: 25px;
+}
+
+#buttonCategory {
+    display: none;
+}
+
+#searchRequest {
+    padding-left: 40px;
+    height: 30px;
+    width: 50%;
+    border: 1px solid #3EB5C7;
+    background-image: url("../img/superSmallSearchIcon.png");
+    background-repeat: no-repeat;
+    background-position: 2px 2px;
+    background-size: 25px;
+    font-size: 13px;
+}
+
+#description {
+    text-align: justify;
+}
+
+#mainBook {
+ /*   border: 1px solid black; */
+    width: 80%;
+    padding: 10px;
+}
+
+#bookImage {
+    float: left;
+    padding-right: 20px;
+    width: 250px;
+}
+
+#author {
+    font-weight: 800;
+}
+
+.bookBox img {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+.bookCart {
+    clear: both;
+    padding-bottom: 20px;
+}
+
+.bookCart img {
+    float: left;
+}
+
+#price {
+    display: inline;
+    float: right;
+    width: 90px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    color: white;
+    background:  #3EB5C7;
+    position: relative;
+    padding-top: 2px;
+    left: -10%;
+    cursor: pointer;
+}
+
+#priceItemDiv {
+    width: 100%;
+    background:  #3EB5C7;
+    height: 2em;
+    
+}
+
+#isbn {
+    display: inline;
+}
+
+#registerForm {
+    max-width: 800px;
+    padding-top: 20px;
+}
+
+#item {
+    display: inline;
+    color: white;
+    font-weight: bold;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+    padding-top: 2px;
+    left: -10%;
+    width: 70px;
+    height: 2em;
+    float: right;
+    background:  #3EB5C7;
+}
+
+#addButton {
+    position: relative;
+    margin-left: 10px;
+    top: -30px;
+    margin-left: 13px;
+    width: 220px;
+    height: 32px;    
+}
+
+
+#searchSubmitButton {
+    position: relative;
+    left: 5px;
+    height: 32px;
+    width: 120px;
+}
+
+
+#mainSignInDiv{
+    padding-top: 10px;
+}
+
+#signIn, #signOut{
+    display: inline;
+    float: right;
+    width: 120px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    color: white;
+    background:  #3EB5C7;
+    position: relative;
+    padding-top: 2px;
+    left: -10%;
+    cursor: pointer;
+}
+
+#cartLogo {
+    height: 16px;
+    position: relative;
+    padding-right: 2px;
+    top: -1px;
+}
+
+#signInButton{
+    width: 100px;
+    height: 2em;
+    position: relative;
+    left: 30px;
+}
+
+#signInForm{
+    max-width: 500px;
+}
+
+#registerSubmitButton {
+    width: 100px;
+    height: 2em;
+    position: relative;
+    left: 55px;
+}
+
+.stylishButton {
+    border-radius: 10px;
+    border: 0px;
+    background-color: #3EB5C7;
+    color: white;
+    cursor: pointer;
+}
+
+#ulLeftNav {
+    list-style-type: none;
+    width: 200px;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#ulLeftNav li {
+    display: block;
+    color: #000;
+    padding: 4px 2px 4px 10px;
+    text-decoration: none;
+}
+
+
+#ulLeftNav li:hover {
+    background: #D7D7D7;
+    cursor: pointer;
+}
+
+.removeBook {
+    width: 50px;
+    position: relative;
+    left: 2px;
+    padding: 1px;
+}
+
+.price {
+    color: #DF2973;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#leftNav{
+    position: relative;
+    top: 20px;
+    color: black;
+    padding-right: 10px;
+    overflow: auto;
+    float: left;
+    display: inherit;
+}
+
+#leftNav ul li :hover{
+    border-bottom: 1px solid #3EB5C7;
+}
+
+#queryResult{
+    padding: 20px;
+}
+
+#frameDiv {
+    min-height: 100%;
+    margin-bottom: -40px;
+}
+
+#push {
+    min-height:  40px;
+    clear: both;
+}
+
+.bookBox {
+  min-width: 150px;
+  width: 15%;
+  height: 230px;
+  display: inline-block;
+  padding: 0px 5px 0px 5px;
+  /* overflow: hidden; */
+  
+}
+
+#cartImage {
+    padding-right: 20px;
+    height: 120px;
+}
+
+#logo{
+    position: relative;
+    height: 45px;
+    left: -15%;
+}
+
+footer {
+    height: 40px;
+    background-color: #401F29;   
+    color: white;
+    font-size: 12px;
+    text-align: center;
+/*    clear: both;
+    bottom: 0px; */
+    width: 100%;
+}
+
+.boldSpan {
+    font-weight: bold;
+}
+
+.message {
+    font-size: 12px;   
+}
+
+.jumbotron {
+    margin-top: 10px;
+    background: white;
+}
+
+.cart {
+    background: rgba(62, 181, 199, 0.1);
+    border: 10px solid rgba(62, 181, 199, 1);
+}
+
+.cart h1 {
+    font-size: 30px;
+}
+
+.bookRow {
+    display: inline;
+}
+
+.noHidden {
+    overflow: visible;
+}
+
+.booksResult {
+    padding-top: 20px;
+    margin-left: 220px;
+}
+
+.bookTitle {
+    font-weight: bold;
+    height: 2.8em;
+    overflow: hidden;
+}
+
+.previousPrice {
+    text-decoration: line-through;
+    padding-left: 3px;
+}
+
+.bookCart h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bookCart p {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.clearDiv {
+    clear: both;
+}
+
+.underlined {
+    background: #D7D7D7;
+}
+
